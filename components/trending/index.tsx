@@ -1,6 +1,6 @@
 import TrendingItem from './trendingItem';
 
-export default function Trending(props) {
+export default function Trending(props: any) {
     console.log(props.data);
     return (
         <div className='ml-6'>

@@ -4,10 +4,10 @@ import Image from 'next/image'
 import Trending from '../components/trending'
 import styles from '../styles/Home.module.css'
 
-const Home: NextPage = ({data}) => {
+const Home: NextPage = (props: any) => {
   return (
     <div >
-        <Trending data={data}/>
+        <Trending data={props.data}/>
     </div>
   )
 }
