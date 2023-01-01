@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Image from 'next/Image';
+import Image from 'next/image';
 import IconHome from '../public/assets/icon-nav-home.svg';
 import IconHomeFull from '../public/assets/icon-nav-home-full.svg';
 import IconMovies from '../public/assets/icon-nav-movies.svg';
